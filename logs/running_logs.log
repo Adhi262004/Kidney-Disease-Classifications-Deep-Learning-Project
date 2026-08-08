@@ -39,3 +39,257 @@ Traceback (most recent call last):
   File "main.py", line 26, in <module>
     obj = PrepareBaseModelTrainingPipeline()
 NameError: name 'PrepareBaseModelTrainingPipeline' is not defined
+[2026-08-07 17:02:41,873: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-07 17:02:41,943: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-07 17:02:41,955: INFO: common: created directory at: artifacts]
+[2026-08-07 17:04:48,453: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-07 17:04:48,460: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-07 17:04:48,460: INFO: common: created directory at: artifacts]
+[2026-08-07 17:04:48,479: INFO: common: created directory at: artifacts\training]
+[2026-08-07 17:13:09,742: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-07 17:13:09,745: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-07 17:13:09,745: INFO: common: created directory at: artifacts]
+[2026-08-07 17:13:09,745: INFO: common: created directory at: artifacts\training]
+[2026-08-07 17:17:33,217: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-07 17:17:33,228: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-07 17:17:33,228: INFO: common: created directory at: artifacts]
+[2026-08-07 17:17:33,228: INFO: common: created directory at: artifacts\training]
+[2026-08-08 10:48:30,549: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 10:48:30,557: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 10:48:30,566: INFO: common: created directory at: artifacts]
+[2026-08-08 10:48:30,569: INFO: common: created directory at: artifacts\training]
+[2026-08-08 10:49:49,738: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 10:49:49,745: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 10:49:49,745: INFO: common: created directory at: artifacts]
+[2026-08-08 10:49:49,745: INFO: common: created directory at: artifacts\training]
+[2026-08-08 10:53:28,378: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 10:53:28,391: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 10:53:28,394: INFO: common: created directory at: artifacts]
+[2026-08-08 10:53:28,394: INFO: common: created directory at: artifacts\training]
+[2026-08-08 11:54:55,700: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-08-08 11:54:55,706: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 11:54:55,710: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 11:54:55,710: INFO: common: created directory at: artifacts]
+[2026-08-08 11:54:55,710: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-08-08 11:54:55,712: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 11:58:21,153: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 11:59:27,663: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-08-08 11:59:27,663: INFO: main: *******************]
+[2026-08-08 11:59:27,663: INFO: main: >>>>>> stage Prepare base model  started <<<<<<]
+[2026-08-08 11:59:27,663: ERROR: main: name 'PrepareBaseModelTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 26, in <module>
+    obj = PrepareBaseModelTrainingPipeline()
+NameError: name 'PrepareBaseModelTrainingPipeline' is not defined
+[2026-08-08 12:18:50,697: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-08-08 12:18:50,704: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 12:18:50,708: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 12:18:50,709: INFO: common: created directory at: artifacts]
+[2026-08-08 12:18:50,710: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-08-08 12:18:50,711: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 12:20:36,210: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 12:21:44,944: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-08-08 12:21:44,944: INFO: main: *******************]
+[2026-08-08 12:21:44,945: INFO: main: >>>>>> stage Prepare base model  started <<<<<<]
+[2026-08-08 12:21:44,950: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 12:21:44,954: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 12:21:44,954: INFO: common: created directory at: artifacts]
+[2026-08-08 12:21:44,955: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-08-08 12:21:44,956: ERROR: main: 'NoneType' object has no attribute 'params_image_size']
+Traceback (most recent call last):
+  File "main.py", line 27, in <module>
+    obj.main()
+  File "c:\users\aadhi\onedrive\desktop\ai engineer\project\kidney-disease-classifications-deep-learning-project\src\cnnClassifier\pipeline\Stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model.get_base_model()
+  File "c:\users\aadhi\onedrive\desktop\ai engineer\project\kidney-disease-classifications-deep-learning-project\src\cnnClassifier\components\prepare_base_model.py", line 17, in get_base_model
+    input_shape=self.config.params_image_size,
+AttributeError: 'NoneType' object has no attribute 'params_image_size'
+[2026-08-08 12:28:17,473: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-08-08 12:28:17,476: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 12:28:17,480: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 12:28:17,481: INFO: common: created directory at: artifacts]
+[2026-08-08 12:28:17,482: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-08-08 12:28:17,482: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 12:35:11,467: ERROR: main: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))]
+Traceback (most recent call last):
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 748, in _error_catcher
+    yield
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 873, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 856, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\http\client.py", line 459, in read
+    n = self.readinto(b)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\http\client.py", line 503, in readinto
+    n = self.fp.readinto(b)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\socket.py", line 681, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\ssl.py", line 1132, in read
+    return self._sslobj.read(len, buffer)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1060, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 949, in read
+    data = self._raw_read(amt)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 902, in _raw_read
+    self._fp.close()
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 775, in _error_catcher
+    raise ProtocolError(f"Connection broken: {e!r}", e) from e
+urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    obj.main()
+  File "c:\users\aadhi\onedrive\desktop\ai engineer\project\kidney-disease-classifications-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "c:\users\aadhi\onedrive\desktop\ai engineer\project\kidney-disease-classifications-deep-learning-project\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "c:\users\aadhi\onedrive\desktop\ai engineer\project\kidney-disease-classifications-deep-learning-project\src\cnnClassifier\components\data_ingestion.py", line 28, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 375, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+[2026-08-08 12:35:41,904: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-08-08 12:35:41,907: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 12:35:41,907: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 12:35:41,907: INFO: common: created directory at: artifacts]
+[2026-08-08 12:35:41,907: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-08-08 12:35:41,907: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 12:35:41,925: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002493F5BF6D0>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))]
+Traceback (most recent call last):
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\socket.py", line 930, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000002493F5BF6D0>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002493F5BF6D0>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    obj.main()
+  File "c:\users\aadhi\onedrive\desktop\ai engineer\project\kidney-disease-classifications-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "c:\users\aadhi\onedrive\desktop\ai engineer\project\kidney-disease-classifications-deep-learning-project\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "c:\users\aadhi\onedrive\desktop\ai engineer\project\kidney-disease-classifications-deep-learning-project\src\cnnClassifier\components\data_ingestion.py", line 28, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 208, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\aadhi\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002493F5BF6D0>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
+[2026-08-08 12:47:29,831: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-08-08 12:47:29,846: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 12:47:29,846: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 12:47:29,846: INFO: common: created directory at: artifacts]
+[2026-08-08 12:47:29,846: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-08-08 12:47:29,846: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 12:49:37,405: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 12:50:43,836: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-08-08 12:50:43,837: INFO: main: *******************]
+[2026-08-08 12:50:43,837: INFO: main: >>>>>> stage Prepare base model  started <<<<<<]
+[2026-08-08 12:50:43,844: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 12:50:43,847: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 12:50:43,847: INFO: common: created directory at: artifacts]
+[2026-08-08 12:50:43,848: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-08-08 12:50:43,848: ERROR: main: 'NoneType' object has no attribute 'params_image_size']
+Traceback (most recent call last):
+  File "main.py", line 27, in <module>
+    obj.main()
+  File "c:\users\aadhi\onedrive\desktop\ai engineer\project\kidney-disease-classifications-deep-learning-project\src\cnnClassifier\pipeline\Stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model.get_base_model()
+  File "c:\users\aadhi\onedrive\desktop\ai engineer\project\kidney-disease-classifications-deep-learning-project\src\cnnClassifier\components\prepare_base_model.py", line 17, in get_base_model
+    input_shape=self.config.params_image_size,
+AttributeError: 'NoneType' object has no attribute 'params_image_size'
+[2026-08-08 12:57:05,683: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-08-08 12:57:05,687: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 12:57:05,689: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 12:57:05,690: INFO: common: created directory at: artifacts]
+[2026-08-08 12:57:05,691: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-08-08 12:57:05,692: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 21:09:03,802: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-08-08 21:09:03,829: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 21:09:03,972: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 21:09:03,974: INFO: common: created directory at: artifacts]
+[2026-08-08 21:09:03,984: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-08-08 21:09:03,987: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 21:12:43,979: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1xFAFm98rUBpiuePI4L_CftHbRCNRQr3P/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2026-08-08 21:14:13,779: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-08-08 21:14:13,779: INFO: main: *******************]
+[2026-08-08 21:14:13,779: INFO: main: >>>>>> stage Prepare base model  started <<<<<<]
+[2026-08-08 21:14:13,787: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 21:14:13,819: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 21:14:13,821: INFO: common: created directory at: artifacts]
+[2026-08-08 21:14:13,824: INFO: common: created directory at: artifacts/prepare_base_model]
+[2026-08-08 21:14:26,838: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-08-08 21:14:29,656: INFO: main: >>>>>> stage Prepare base model  completed <<<<<<
+
+x==========x]
+[2026-08-08 21:14:29,657: INFO: main: *******************]
+[2026-08-08 21:14:29,657: INFO: main: >>>>>> stage Training started <<<<<<]
+[2026-08-08 21:14:29,665: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-08-08 21:14:29,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-08-08 21:14:29,667: INFO: common: created directory at: artifacts]
+[2026-08-08 21:14:29,667: INFO: common: created directory at: artifacts\training]
+[2026-08-08 22:18:33,765: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
